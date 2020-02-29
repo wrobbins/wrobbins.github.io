@@ -1,0 +1,41 @@
+/* disclaimer: CSS is not my forte */
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(249, 249, 250);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+}
+
+.contents {
+  height: 100%;
+  margin: 0 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+}
+
+.section:last-child {
+  border-bottom: 0;
+  flex-basis: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.linkedin {
+  vertical-align: middle;
+}
