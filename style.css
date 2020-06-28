@@ -56,12 +56,17 @@ body {
   border-bottom: 1px solid gray;
 }
 
+.section:hover {
+  background-color: rgb(190, 190, 190);
+}
+
 .section:last-child {
   border-bottom: 0;
   flex-basis: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  background: 0;
 }
 
 .logo {
