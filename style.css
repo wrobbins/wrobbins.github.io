@@ -1,5 +1,3 @@
-/* disclaimer: CSS is not my forte */
-
 html {
   height: 100%;
 }
@@ -49,6 +47,11 @@ body {
   .contents {
     margin: 0 10px;
   }
+}
+
+section {
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
 }
 
 .section {
