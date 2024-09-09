@@ -54,6 +54,10 @@ section {
   border-bottom: 1px solid gray;
 }
 
+section:hover {
+  background-color: rgb(190, 190, 190);
+}
+
 .section {
   padding: 10px 0;
   border-bottom: 1px solid gray;
